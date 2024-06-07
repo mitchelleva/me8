@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    background-color: rgb(46, 63, 75);
+    background-image: url('img/darkstatic.png');
+    background-repeat: repeat;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.firstpara {
+    max-width: 560px;
+
+}
+
+#leftside {
+    display: flex;
+    /* width: 50vw; */
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(61, 25, 61);
+}
+
+#threedee {
+    flex: 1;
+    /* width: 50vw; */
+    border: 1px solid rgb(188, 35, 35); /* Optional: for visual confirmation */
+}
+
+#mostthings {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0px;
+    /* max-width: 50vw; */
+    padding: 2vw;
+}
+
+a {
+    color: #DDD9E1;
+    text-decoration: none;
+}
+
+.largetxt {
+    font-family: "Lexend", sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    letter-spacing: -0.96px;
+    color: #DDD9E1;
+}
+
+.basetxt {
+    font-family: "Lexend", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    line-height: 150%;
+    color: #DDD9E1;
+}
+
+.smalltxt {
+    font-family: "Lexend", sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    color: #DDD9E1;
+}
+
+.button {
+    display: flex;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border: 2px solid var(--Lightest, #ddd9e130);
+    font-family: "Lexend", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: -0.6px;
+    color: #DDD9E1;
+}
+
+.button:hover {
+    background-color: rgba(255, 255, 255, 0.117);
+}
+
+.menu {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.homehead {
+    display: inline-flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.logo {
+    width: 61px;
+    height: 26px;
+}
+
+.socs {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.socs > *:hover {
+    opacity: 80%;
+    }
+
+.social-icon {
+
+    height: 24px;
+    width: 24px;
+    background-repeat: no-repeat;
+    margin-right: 20px;
+}
+
+
+
+#soc-behance {
+background-image: url(img/soc-behance.svg);
+}
+
+#soc-youtube {
+    background-image: url(img/soc-youtube.svg);
+    }
+
+#soc-insta {
+    background-image: url(img/soc-instagram.svg);
+    }
+
+#soc-linkedin {
+    background-image: url(img/soc-linkedin.svg);
+    }
+
+
